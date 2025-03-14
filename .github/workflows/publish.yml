@@ -61,7 +61,7 @@ jobs:
 
     permissions:
       contents: write  # IMPORTANT: mandatory for making GitHub Releases
-      id-token: write  # IMPORTANT: mandatory for sigstore
+      id-token: write  # IMPORTANT: mandatory for sigstore 
 
     steps:
     - name: Download all the dists
@@ -105,7 +105,7 @@ jobs:
       url: https://test.pypi.org/p/exscribe
 
     permissions:
-      id-token: write  # IMPORTANT: mandatory for trusted publishing
+      id-token: write  # IMPORTANT: mandatory for trusted publishing 
 
     steps:
     - name: Download all the dists
